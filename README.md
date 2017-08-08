@@ -2,7 +2,7 @@
 
 This was a fun exercise, I learned a little bit about __Slack__ as well as quite a lot about __NLP__ (Natural-language processing) and __bots__.
 
-![GCP Slackbot](./images/GCP Slackbot.png)
+![GCP Slackbot](./images/GCP_Slackbot.png)
 
 ## NLP
 
@@ -44,7 +44,7 @@ To use __Wit.ai__ it will be necessary to sign in with a __GitHub__ account.
 
 ## Slack
 
-For the __Slack__portion, we will create a real-time messaging (RTM) client which will use __websockets__.
+For the __Slack__ portion, we will create a real-time messaging (RTM) client which will use __websockets__.
 
 We will also create a _bot user_ in Slack. This will create a Slack token.
 
@@ -95,7 +95,7 @@ The tutorial recommends creating two API keys, one for each service however we w
 
 We will also restrict our GCP project to __only__ these two APIs:
 
-![Google APIs](./images/Google APIs.png)
+![Google APIs](./images/Google_APIs.png)
 
 ## Google Secrets
 
