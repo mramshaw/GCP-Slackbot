@@ -1,0 +1,16 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "express": "^4.15.4",
+    "superagent": "^3.5.2"
+  }
+}

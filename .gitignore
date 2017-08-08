@@ -1,0 +1,14 @@
+# Project
+Mind Maps
+
+# Iris
+Iris/node_modules
+Iris/secrets.json
+
+# Iris-time
+Iris-time/node_modules
+Iris-time/secrets.json
+
+# Iris-weather
+Iris-weather/node_modules
+Iris-weather/secrets.json

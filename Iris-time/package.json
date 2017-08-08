@@ -1,0 +1,16 @@
+{
+  "name": "iris-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "superagent": "^3.5.2"
+  }
+}
