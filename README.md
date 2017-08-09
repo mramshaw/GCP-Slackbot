@@ -1,6 +1,6 @@
 # Building a Slack Bot with Node.js Microservices
 
-This was a fun exercise, I learned a little bit about __Slack__ as well as quite a lot about __NLP__ (Natural-language processing) and __bots__.
+This was a fun exercise, I learned a little bit about __Slack__ as well as quite a lot about __NLP__ (Natural-language processing).
 
 ![GCP Slackbot](./images/GCP_Slackbot.png)
 
