@@ -36,12 +36,6 @@ A __GitHub__ account will be needed, as well as a __Google Cloud Platform__ acco
 
 The __Node.js__ modules will use the __@slack/client__, __Express__, __superagent__ and __moment__ frameworks.
 
-## OAuth2
-
-Apart from the Google API calls we will be using the __OAuth2__ framework for authentication, validation and verification.
-
-To use __Wit.ai__ it will be necessary to sign in with a __GitHub__ account.
-
 ## Slack
 
 For the __Slack__ portion, we will create a real-time messaging (RTM) client which will use __websockets__.
@@ -50,9 +44,11 @@ We will also create a _bot user_ in Slack. This will create a Slack token.
 
 ## Wit
 
-We will create and train a natural-language processing (NLP) client with __Wit.ai__. This will create a Wit token.
+We will create and train a natural-language processing (NLP) client with __Wit.ai__.
 
-As noted above, it will be necessary to sign in with a __GitHub__ account.
+In order to do this, it will be necessary to sign in with a __GitHub__ account.
+
+Once our client has been trained, we will need to create a Wit token.
 
 #### Time
 
@@ -135,4 +131,4 @@ Based upon:
 
 	https://www.lynda.com/Node-js-tutorials/Building-Slack-Bot-Node-js-Microservices/509406-2.html
 
-This tutorial is worth viewing for some great insight into how to structure the code in a __Node.js__ project. The service discovery parts are very interesting.
+This tutorial is worth viewing for some great insight into how to structure the code in a __Node.js__ project.
