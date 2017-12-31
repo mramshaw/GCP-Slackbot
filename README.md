@@ -119,7 +119,7 @@ This file must be created in the __Iris-weather__ directory. Note that this is n
 
 ## To Do
 
-- [ ] Replace the current logging [`console.log("listening");`] framework with a dedicated logging package like __Bunyan__ or __Winston__.
+- [ ] Replace the console logging [`console.log("listening");`] with either __util__ logging or a dedicated logging package like __Bunyan__ or __Winston__.
 - [ ] Check for duplicates from the Google Geocoding (Lat/Long) lookup and if found, request a more specific location.
 - [ ] Update the Service Registry to allow for proxies (currently assumes all services are directly reachable).
 - [ ] Update the Service Registry to more randomly return matching services for load-balancing purposes (rather than simply the first one that matches).
