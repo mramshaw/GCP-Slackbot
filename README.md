@@ -8,7 +8,7 @@ This was a fun exercise, I learned a little bit about __Slack__ as well as quite
 
 Like a lot of people, I learned a certain amount of programming from the old text-based computer games.
 
-I knew that I had learned some __Basic__ and __Fortran__ there, also some __GMAP__ (an obscure assembly language). But I hadn't realized that I also learned about __NLP__:
+I knew that I had learned some __Basic__ and __Fortran__ there, also some __GMAP__ (an obscure assembly language, or - specifically - GCOS Macro Assembler Program). But I hadn't realized that I also learned about __NLP__:
 
 	A threatening little dwarf bars your way. He throws an axe at you, but misses.
 	> kill dwarf
@@ -47,6 +47,8 @@ We will also create a _bot user_ in Slack. This will create a Slack token.
 We will create and train a natural-language processing (NLP) client with __Wit.ai__.
 
 In order to do this, it will be necessary to sign in with a __GitHub__ account.
+
+We will need to train our client to recognize __Intents__ (I have been unable to find a good definition but broadly speaking the main concept of a question or statement. These will also be important for [AWS Alexa](https://github.com/mramshaw/Alexa-Stuff)).
 
 Once our client has been trained, we will need to create a Wit token.
 
