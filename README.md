@@ -34,7 +34,7 @@ A __GitHub__ account will be needed, as well as a __Google Cloud Platform__ acco
 
 ## Node.js
 
-The __Node.js__ modules will use the __@slack/client__, __Express__, __superagent__ and __moment__ frameworks.
+The __Node.js__ modules will use the [@slack/client](https://github.com/slackapi/node-slack-sdk), __Express__, __superagent__ and __moment__ frameworks.
 
 ## Slack
 
