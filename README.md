@@ -28,7 +28,8 @@ The contents are as follows:
 
 Like a lot of people, I learned a certain amount of programming from the old text-based computer games.
 
-I knew that I had learned some __Basic__ and __Fortran__ there, also some __GMAP__ (an obscure assembly language, or - specifically - GCOS Macro Assembler Program). But I hadn't realized that I also learned about __NLP__:
+I knew that I had learned some __Basic__ and __Fortran__ there, also some __GMAP__ (an obscure assembly language,
+or - specifically - GCOS Macro Assembler Program). But I hadn't realized that I also learned about __NLP__:
 
 	A threatening little dwarf bars your way. He throws an axe at you, but misses.
 	> kill dwarf
@@ -46,7 +47,11 @@ I knew that I had learned some __Basic__ and __Fortran__ there, also some __GMAP
 	> throw axe
 	You missed!
 
-Things have changed in the many years that have elapsed since then, but I'm not sure they've changed all that much. The slackbot we will implement here is very reminiscent of [__Eliza__]( https://en.wikipedia.org/wiki/ELIZA) - which was an early natural language processing program.
+[If anyone is interested, this exchange occurred in the text-based game [Colossal Cave Adventure](http://gitlab.com/esr/open-adventure).]
+
+Things have changed in the many years that have elapsed since then, but I'm not sure they've changed all that much.
+The slackbot we will implement here is very reminiscent of [__Eliza__]( https://en.wikipedia.org/wiki/ELIZA) - which
+was an early natural language processing program.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ A __GitHub__ account will be needed, as well as a __Google Cloud Platform__ acco
 
 ## Node.js
 
-The __Node.js__ modules will use the __@slack/client__, __Express__, __superagent__ and __moment__ frameworks.
+The __Node.js__ modules will use the [@slack/client](https://github.com/slackapi/node-slack-sdk), __Express__, __superagent__ and __moment__ frameworks.
 
 ## Slack
 
