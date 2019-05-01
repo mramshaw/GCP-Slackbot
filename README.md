@@ -4,6 +4,26 @@ This was a fun exercise, I learned a little bit about __Slack__ as well as quite
 
 ![GCP Slackbot](./images/GCP_Slackbot.png)
 
+## Index
+
+The contents are as follows:
+
+* [NLP](#nlp)
+* [Requirements](#requirements)
+* [Node.js](#nodejs)
+* [Slack](#slack)
+* [Wit](#wit)
+    * [Time](#time)
+    * [Weather](#weather)
+* [Slack and Wit Secrets](#slack-and-wit-secrets)
+* [Time Service](#time-service)
+    * [Google Secrets](#google-secrets)
+* [Weather Service](#weather-service)
+    * [OpenWeatherMap Secrets](#openweathermap-secrets)
+* [Privacy](#privacy)
+* [To Do](#to-do)
+* [Credits](#credits)
+
 ## NLP
 
 Like a lot of people, I learned a certain amount of programming from the old text-based computer games.
@@ -95,7 +115,7 @@ We will also restrict our GCP project to __only__ these two APIs:
 
 ![Google APIs](./images/Google_APIs.png)
 
-## Google Secrets
+#### Google Secrets
 
 We will embed our Google token in a __secrets.json__ file as follows:
 
@@ -109,7 +129,7 @@ This file must be created in the __Iris-time__ directory. Note that this is not 
 
 To determine the requested weather, we will use the OpenWeatherMap API.
 
-## OpenWeatherMap Secrets
+#### OpenWeatherMap Secrets
 
 We will embed our OpenWeatherMap token in a __secrets.json__ file as follows:
 
@@ -119,9 +139,21 @@ We will embed our OpenWeatherMap token in a __secrets.json__ file as follows:
 
 This file must be created in the __Iris-weather__ directory. Note that this is not a valid token!
 
+## Privacy
+
+[Wit.ai](http://wit.ai/) was acquired by [Facebook](http://www.facebook.com) in 2016.
+
+If you are at all concerned about Facebook and their concern for user privacy or the uses to which Facebook puts its data,
+ this might be something to bear in mind.
+
+Wit.ai publishes its [privacy policy](http://wit.ai/privacy) and also has a [BLOG](http://wit.ai/blog).
+
+Facebook are the creators of [React](http://github.com/facebook/react) and [React native](https://github.com/facebook/react-native).
+
 ## To Do
 
-- [ ] Replace the console logging [`console.log("listening");`] with either __util__ logging or a dedicated logging package like __Bunyan__ or __Winston__.
+- [x] Add a note about Wit.ai ownership and privacy policy
+- [ ] Replace console logging [`console.log("listening");`] with either __util__ logging or a package like [bunyan](http://www.npmjs.com/package/bunyan) or [winston](http://www.npmjs.com/package/winston).
 - [ ] Check for duplicates from the Google Geocoding (Lat/Long) lookup and if found, request a more specific location.
 - [ ] Update the Service Registry to allow for proxies (currently assumes all services are directly reachable).
 - [ ] Update the Service Registry to more randomly return matching services for load-balancing purposes (rather than simply the first one that matches).
