@@ -50,7 +50,7 @@ or - specifically - GCOS Macro Assembler Program). But I hadn't realized that I 
 [If anyone is interested, this exchange occurred in the text-based game [Colossal Cave Adventure](http://gitlab.com/esr/open-adventure).]
 
 Things have changed in the many years that have elapsed since then, but I'm not sure they've changed all that much.
-The slackbot we will implement here is very reminiscent of [__Eliza__]( https://en.wikipedia.org/wiki/ELIZA) - which
+The slackbot we will implement here is very reminiscent of [__Eliza__](http://en.wikipedia.org/wiki/ELIZA) - which
 was an early natural language processing program.
 
 ## Requirements
@@ -59,7 +59,8 @@ A __GitHub__ account will be needed, as well as a __Google Cloud Platform__ acco
 
 ## Node.js
 
-The __Node.js__ modules will use the [@slack/client](https://github.com/slackapi/node-slack-sdk), __Express__, __superagent__ and __moment__ frameworks.
+The __Node.js__ modules will use the [@slack/client](http://github.com/slackapi/node-slack-sdk), [express](http://www.npmjs.com/package/express),
+[superagent](http://www.npmjs.com/package/superagent) and [moment](http://www.npmjs.com/package/moment) frameworks.
 
 ## Slack
 
@@ -73,7 +74,8 @@ We will create and train a natural-language processing (NLP) client with __Wit.a
 
 In order to do this, it will be necessary to sign in with a __GitHub__ account.
 
-We will need to train our client to recognize __Intents__ (I have been unable to find a good definition but broadly speaking the main concept of a question or statement. These will also be important for [AWS Alexa](https://github.com/mramshaw/Alexa-Stuff)).
+We will need to train our client to recognize __Intents__ (I have been unable to find a good definition but broadly speaking the main concept of a question or statement.
+ Intents will also be important for [AWS Alexa](http://github.com/mramshaw/Alexa-Stuff)).
 
 Once our client has been trained, we will need to create a Wit token.
 
@@ -108,11 +110,11 @@ It will be necessary to sign in with a __Google Cloud Platform__ account.
 
 Google's Geocoding documentation:
 
-	https://developers.google.com/maps/documentation/geocoding/start
+	http://developers.google.com/maps/documentation/geocoding/start
 
 Google's Timezone documentation:
 
-	https://developers.google.com/maps/documentation/timezone/start
+	http://developers.google.com/maps/documentation/timezone/start
 
 The tutorial recommends creating two API keys, one for each service however we will use the same key for both.
 
@@ -153,11 +155,12 @@ If you are at all concerned about Facebook and their concern for user privacy or
 
 Wit.ai publishes its [privacy policy](http://wit.ai/privacy) and also has a [BLOG](http://wit.ai/blog).
 
-Facebook are the creators of [React](http://github.com/facebook/react) and [React native](https://github.com/facebook/react-native).
+Facebook are the creators of [React](http://github.com/facebook/react) and [React native](http://github.com/facebook/react-native).
 
 ## To Do
 
 - [x] Add a note about Wit.ai ownership and privacy policy
+- [x] Add links for express, superagent and moment frameworks
 - [ ] Replace console logging [`console.log("listening");`] with either __util__ logging or a package like [bunyan](http://www.npmjs.com/package/bunyan) or [winston](http://www.npmjs.com/package/winston).
 - [ ] Check for duplicates from the Google Geocoding (Lat/Long) lookup and if found, request a more specific location.
 - [ ] Update the Service Registry to allow for proxies (currently assumes all services are directly reachable).
@@ -168,6 +171,6 @@ Facebook are the creators of [React](http://github.com/facebook/react) and [Reac
 
 Based upon:
 
-	https://www.lynda.com/Node-js-tutorials/Building-Slack-Bot-Node-js-Microservices/509406-2.html
+	http://www.lynda.com/Node-js-tutorials/Building-Slack-Bot-Node-js-Microservices/509406-2.html
 
 This tutorial is worth viewing for some great insight into how to structure the code in a __Node.js__ project.
