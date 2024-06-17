@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@slack/client": "^3.10.0",
+    "@slack/client": "^5.0.2",
     "express": "^4.15.4",
     "superagent": "^3.5.2"
   }
